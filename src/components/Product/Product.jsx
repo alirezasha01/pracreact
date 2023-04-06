@@ -11,9 +11,11 @@ import React from "react";
 
 class Product extends React.Component{
     render(){
+        const price = 10
         return(
         <div>
-            <h1>Product</h1>
+            <p>product Name: shampoo</p>
+            <p>product Price: {price}</p>
         </div>
         )
     }

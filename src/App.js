@@ -6,7 +6,7 @@ const App = () => {
     <div className="App">
       <Product name="shampoo" price="100000"/>
       <Product name="ketab" price="500000"/>
-      <Product name="samavar" price="2900000"/>
+      <Product name="samavar" price="2900000">takhfif:20%</Product>
       <h1>test</h1>
     </div>
   );
